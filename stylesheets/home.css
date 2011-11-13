@@ -1,0 +1,42 @@
+#projects {
+  border: 1px solid #ddd;
+  margin: 1em 0;
+}
+
+.project {
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+}
+
+.project:hover {
+  background-color: #f9f9f9;
+}
+
+.project.last {
+  border-bottom: none;
+}
+
+.project > a {
+  display: block;
+  float: left;
+  padding: 1em;
+  width: 66.7%;
+}
+
+.project > .actions {
+  float: right;
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+}
+
+.project > .actions li.action {
+  display: inline;
+  float: left;
+  margin-right: 0.5em;
+}
+
+.project > .actions li.action.last {
+  margin-right: 0;
+}

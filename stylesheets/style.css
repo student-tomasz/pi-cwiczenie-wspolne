@@ -1,0 +1,77 @@
+@import url('reset.css');
+@import url('base.css');
+@import url('fonts.css');
+
+html {
+  background: #eee url('../images/bg.jpg') repeat-x fixed top;
+  color: #333;
+}
+
+body {
+  background: none;
+  color: #333;
+  font: 16px/1.25 "Lucida Grande", "Calibri", helvetica, verdana, sans-serif;
+  margin: 0 auto;
+  width: 60em;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #55c6ff;
+  text-decoration: underline;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Grande", "Calibri", helvetica, verdana, sans-serif;
+}
+
+hr {
+  border: none;
+  border-top: solid 1px #333;
+  width: 100%
+}
+
+select, input, button, textarea {
+  font-family: "Lucida Grande", "Calibri", helvetica, verdana, sans-serif;
+}
+
+pre, code {
+  font-family: "Monaco", "Menlo", "Consolas", "Courier New", monospace;
+  font-size: 0.8125em;
+  white-space: pre;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#source pre.prettyprint {
+  background-color: #f9f9f9;
+  border: none;
+  margin: 1em 0;
+  overflow: auto;
+  padding: 1em 0 1em 2em;
+  width: 69.85em;
+}
+
+#validations ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+#validations ul > li {
+  display: inline;
+}
+
+#validations a, #validations a:active, #validations a:focus, #validations a:hover {
+  text-decoration: none;
+}
