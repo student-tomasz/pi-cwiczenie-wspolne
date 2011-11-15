@@ -51,5 +51,8 @@ $(document).ready(function() {
 
   document.body.appendChild(sourceDiv);
   prettyPrint();
+  if (!window.location.href.match(/file:\/\//)) {
+    $('#source').css('display', 'block');
+  }
 
 });

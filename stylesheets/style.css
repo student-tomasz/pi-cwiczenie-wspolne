@@ -55,6 +55,7 @@ pre, code {
 }
 
 #source {
+  display: none;
   overflow: auto;
   width: 100%;
 }
@@ -65,6 +66,10 @@ pre, code {
   margin: 1em 0;
   overflow: auto;
   padding: 1em 0 1em 2em;
+}
+
+#validations {
+  display: none;
 }
 
 #validations ul {
